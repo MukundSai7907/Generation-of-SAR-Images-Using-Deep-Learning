@@ -8,5 +8,15 @@ This work aims to generate new Synthetic Aperture Radar (SAR) Images using Gener
 
 ![alt text](https://github.com/MukundSai7907/Generation-of-SAR-Images-Using-Deep-Learning/blob/main/Overview.png?raw=true)
 
-## Results: 
+## DenseNet Structure: 
+The end to end DenseNet structure is show below
+![alt text](https://github.com/MukundSai7907/Generation-of-SAR-Images-Using-Deep-Learning/blob/main/DENSE_NET?raw=true)
+![alt text](https://github.com/MukundSai7907/Generation-of-SAR-Images-Using-Deep-Learning/blob/main/DENSE_BLOCK?raw=true)
+
+## GAN STRUCTURE: 
+The discriminator is modelled as
+![alt text](https://github.com/MukundSai7907/Generation-of-SAR-Images-Using-Deep-Learning/blob/main/DIS.png?raw=true)
+The generator is modelled as
+![alt text](https://github.com/MukundSai7907/Generation-of-SAR-Images-Using-Deep-Learning/blob/main/GEN.png?raw=true)
+
 
