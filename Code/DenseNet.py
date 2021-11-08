@@ -141,7 +141,7 @@ if __name__ == '__main__':
     model[0].compile(optimizer=opt , loss='categorical_crossentropy' , metrics=['accuracy']) 
 
     train_datagen = ImageDataGenerator(data_format = "channels_last")
-    train_generator = train_datagen.flow_from_directory('/content/drive/My Drive/FINAL_DSET_NORM_6/' , target_size = (64,64) , color_mode = 'grayscale' , batch_size = 8)  
+    train_generator = train_datagen.flow_from_directory('Training_Set_Path' , target_size = (64,64) , color_mode = 'grayscale' , batch_size = 8)  
     STEP_SIZE_TRAIN=train_generator.n//train_generator.batch_size
 
     lrate = LearningRateScheduler(step_decay, verbose=1)
@@ -149,8 +149,8 @@ if __name__ == '__main__':
 
     model[0].fit_generator(train_generator , steps_per_epoch=STEP_SIZE_TRAIN , epochs = 20, callbacks=callbacks_list, verbose=1) 
 
-    model[0].save("DENSE_ON_NORMS.h5")
-    model[0].save("/content/drive/My Drive/MODELS/DENSE_ON_NORMS.h5")
+    model[0].save("Path")
+    model[0].save("Path")
 
 
 
