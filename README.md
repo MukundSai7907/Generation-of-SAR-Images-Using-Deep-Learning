@@ -20,3 +20,9 @@ The generator is modelled as
 ![alt text](https://github.com/MukundSai7907/Generation-of-SAR-Images-Using-Deep-Learning/blob/main/GEN.png?raw=true)
 
 
+## Results:
+Some GAN generated images (left) and dataset images (right) are placed next to each other to demonstrate the GAN's effectiveness
+![alt text](https://github.com/MukundSai7907/Generation-of-SAR-Images-Using-Deep-Learning/blob/main/tur1.png?raw=true)
+![alt text](https://github.com/MukundSai7907/Generation-of-SAR-Images-Using-Deep-Learning/blob/main/tur2.png?raw=true)
+![alt text](https://github.com/MukundSai7907/Generation-of-SAR-Images-Using-Deep-Learning/blob/main/tur3.png?raw=true)
+![alt text](https://github.com/MukundSai7907/Generation-of-SAR-Images-Using-Deep-Learning/blob/main/tur4.png?raw=true)
